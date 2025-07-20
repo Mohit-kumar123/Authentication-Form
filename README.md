@@ -281,7 +281,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Mohit Kumar**
 - GitHub: [@Mohit-kumar123](https://github.com/Mohit-kumar123)
-- LinkedIn: [Connect with me](www.linkedin.com/in/mohit-kumar12)
+- LinkedIn: [Connect with me](https://www.linkedin.com/in/mohit-kumar12/)
 - Email: mohit15eu@gmail.com
 
 ## Acknowledgments
