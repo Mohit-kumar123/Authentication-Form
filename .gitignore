@@ -1,0 +1,320 @@
+# 🔐 Full-Stack Authentication - .gitignore
+
+# ====================================
+# Environment Variables & Secrets
+# ====================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# ====================================
+# Node.js Dependencies
+# ====================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ====================================
+# Build Outputs
+# ====================================
+dist/
+build/
+dist-ssr/
+*.local
+
+# ====================================
+# Frontend Specific (React/Vite)
+# ====================================
+# Vite
+.vite/
+
+# React
+build/
+public/build/
+
+# ====================================
+# Backend Specific (Node.js)
+# ====================================
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# ====================================
+# Database Files
+# ====================================
+# MongoDB
+*.mongodb
+dump/
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# ====================================
+# Operating System Files
+# ====================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+# ====================================
+# IDE & Editor Files
+# ====================================
+# VSCode
+.vscode/
+!.vscode/extensions.json
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ====================================
+# Temporary Files
+# ====================================
+*.tmp
+*.temp
+*.cache
+.cache/
+
+# ====================================
+# Package Managers
+# ====================================
+# npm
+package-lock.json.orig
+
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# ====================================
+# Testing & Coverage
+# ====================================
+coverage/
+.nyc_output/
+test-results/
+test-report.xml
+
+# Jest
+jest-results/
+
+# ====================================
+# Development Tools
+# ====================================
+# ESLint
+.eslintcache
+
+# Prettier
+.prettierignore
+
+# TypeScript
+*.tsbuildinfo
+
+# ====================================
+# Deployment & CI/CD
+# ====================================
+# Vercel
+.vercel
+
+# Netlify
+.netlify/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Kubernetes
+*.yaml.local
+*.yml.local
+
+# ====================================
+# Security & Certificates
+# ====================================
+# SSL Certificates
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# JWT Keys
+jwt-*.key
+private.key
+public.key
+
+# ====================================
+# Uploads & User Generated Content
+# ====================================
+uploads/
+public/uploads/
+temp-uploads/
+user-data/
+
+# ====================================
+# Application Specific
+# ====================================
+# Authentication specific
+tokens/
+sessions/
+refresh-tokens/
+
+# User profile pictures
+profile-pics/
+avatars/
+
+# Backup files
+*.backup
+*.bak
+backup/
+
+# ====================================
+# Miscellaneous
+# ====================================
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.parcel-cache
+
+# Next.js build output
+.next
+out
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+storybook-static
+
+# Temporary folders
+tmp/
+temp/
+
+# ====================================
+# Comments for Team Members
+# ====================================
+
+# ✅ SAFE TO COMMIT:
+# - Source code files (.js, .jsx, .css, .html)
+# - Package.json files
+# - README.md and documentation
+# - Public assets (images, fonts)
+# - Configuration files (without secrets)
+
+# ❌ NEVER COMMIT:
+# - .env files with secrets
+# - node_modules folders
+# - API keys or passwords
+# - Build outputs
+# - Personal IDE settings
+# - Temporary files
+# - Database dumps with real data
+
+# 📝 TEAM NOTES:
+# - Always use environment variables for secrets
+# - Keep package-lock.json in git for consistent installs
+# - Use .env.example to show required environment variables
+# - Document any custom ignore patterns below this line
+
+# ====================================
+# Custom Project Ignores (Add Below)
+# ====================================
+
+# Add your project-specific ignores here...
