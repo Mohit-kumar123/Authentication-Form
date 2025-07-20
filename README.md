@@ -1,5 +1,7 @@
 # 🔐 Full-Stack Authentication System
 
+<div align="center">
+
 A modern, secure authentication system built with **React** frontend and **Node.js/Express** backend, featuring JWT tokens, password hashing, and comprehensive user management.
 
 ![Authentication Flow](https://img.shields.io/badge/Auth-JWT%20Tokens-green)
@@ -7,79 +9,102 @@ A modern, secure authentication system built with **React** frontend and **Node.
 ![Backend](https://img.shields.io/badge/Backend-Node.js%20%7C%20Express-red)
 ![Database](https://img.shields.io/badge/Database-MongoDB-green)
 
+</div>
+
+---
+
 ## 🌟 Features
 
+<table>
+<tr>
+<td width="50%">
+
 ### 🔒 **Security Features**
-- **JWT Authentication** with access & refresh tokens
-- **Password Hashing** using bcryptjs (12-round salt)
-- **Rate Limiting** to prevent brute force attacks
-- **Input Validation** with express-validator
-- **CORS Protection** for cross-origin requests
-- **Environment Variables** for sensitive data
+- ✅ **JWT Authentication** with access & refresh tokens
+- ✅ **Password Hashing** using bcryptjs (12-round salt)
+- ✅ **Rate Limiting** to prevent brute force attacks
+- ✅ **Input Validation** with express-validator
+- ✅ **CORS Protection** for cross-origin requests
+- ✅ **Environment Variables** for sensitive data
 
 ### 👤 **User Management**
-- User Registration with validation
-- Secure Login/Logout
-- Profile Management (view/edit)
-- Password strength requirements
-- Automatic token refresh
-- Session management
+- 📝 User Registration with validation
+- 🔑 Secure Login/Logout
+- 👤 Profile Management (view/edit)
+- 💪 Password strength requirements
+- 🔄 Automatic token refresh
+- 📱 Session management
+
+</td>
+<td width="50%">
 
 ### 🎨 **Frontend Features**
-- Modern React 19 with hooks
-- React Router for navigation
-- Responsive design with CSS Grid/Flexbox
-- Form validation and error handling
-- Loading states and user feedback
-- Protected routes with authentication guards
+- ⚛️ Modern React 19 with hooks
+- 🛣️ React Router for navigation
+- 📱 Responsive design with CSS Grid/Flexbox
+- ✅ Form validation and error handling
+- ⏳ Loading states and user feedback
+- 🔒 Protected routes with authentication guards
 
 ### 🔧 **Developer Experience**
-- Hot reload with Nodemon & Vite
-- Structured folder organization
-- Clean API design
-- Error handling and logging
-- Development/Production configs
+- 🔥 Hot reload with Nodemon & Vite
+- 📁 Structured folder organization
+- 🎯 Clean API design
+- 🐛 Error handling and logging
+- ⚙️ Development/Production configs
+
+</td>
+</tr>
+</table>
 
 ## 🏗️ Project Structure
 
+<details>
+<summary><strong>📁 Click to expand project structure</strong></summary>
+
 ```
 authentication/
-├── README.md
-├── .gitignore
-├── Backend/                 # Node.js/Express API
-│   ├── .env                # Environment variables
-│   ├── package.json        # Backend dependencies
-│   ├── index.js            # Main server file
-│   ├── controllers/        # Business logic
-│   │   └── UserController.js
-│   ├── models/             # Database schemas
-│   │   ├── UserSchema.js
-│   │   └── TokenSchema.js
-│   ├── routes/             # API endpoints
-│   │   └── UserRoutes.js
-│   ├── middleware/         # Custom middleware
-│   │   ├── authMiddleware.js
-│   │   ├── validation.js
-│   │   └── rateLimiter.js
-│   └── utils/              # Utility functions
-│       └── generateToken.js
-└── Frontend/               # React Application
-    ├── package.json        # Frontend dependencies
-    ├── index.html          # HTML template
-    ├── vite.config.js      # Vite configuration
-    └── src/
-        ├── main.jsx        # React entry point
-        ├── App.jsx         # Main App component
-        ├── App.css         # Global styles
-        ├── components/     # React components
-        │   ├── Login.jsx
-        │   ├── Register.jsx
-        │   └── Dashboard.jsx
-        └── services/       # API integration
-            └── api.js
+├── 📄 README.md
+├── 🚫 .gitignore
+├── 📁 Backend/                 # Node.js/Express API
+│   ├── 🔐 .env                # Environment variables
+│   ├── 📦 package.json        # Backend dependencies
+│   ├── 🚀 index.js            # Main server file
+│   ├── 📁 controllers/        # Business logic
+│   │   └── 👤 UserController.js
+│   ├── 📁 models/             # Database schemas
+│   │   ├── 👤 UserSchema.js
+│   │   └── 🎫 TokenSchema.js
+│   ├── 📁 routes/             # API endpoints
+│   │   └── 🛣️ UserRoutes.js
+│   ├── 📁 middleware/         # Custom middleware
+│   │   ├── 🔒 authMiddleware.js
+│   │   ├── ✅ validation.js
+│   │   └── ⏱️ rateLimiter.js
+│   └── 📁 utils/              # Utility functions
+│       └── 🎫 generateToken.js
+└── 📁 Frontend/               # React Application
+    ├── 📦 package.json        # Frontend dependencies
+    ├── 🌐 index.html          # HTML template
+    ├── ⚡ vite.config.js      # Vite configuration
+    └── 📁 src/
+        ├── 🚀 main.jsx        # React entry point
+        ├── 📱 App.jsx         # Main App component
+        ├── 🎨 App.css         # Global styles
+        ├── 📁 components/     # React components
+        │   ├── 🔑 Login.jsx
+        │   ├── 📝 Register.jsx
+        │   └── 📊 Dashboard.jsx
+        └── 📁 services/       # API integration
+            └── 🌐 api.js
 ```
 
-## 📦 Backend Dependencies Explained
+</details>
+
+## 📦 Dependencies Explained
+
+<details>
+<summary><strong>🔧 Backend Dependencies (Click to expand)</strong></summary>
 
 | Dependency | Version | What it Does | Kitchen Analogy |
 |------------|---------|--------------|-----------------|
@@ -93,7 +118,10 @@ authentication/
 | **mongoose** | ^8.16.4 | MongoDB object modeling | Advanced inventory management system 📦 |
 | **nodemon** | ^3.1.10 | Auto-restarts server on changes | Smart assistant who refreshes the kitchen automatically 🔁 |
 
-## 🎨 Frontend Dependencies Explained
+</details>
+
+<details>
+<summary><strong>⚛️ Frontend Dependencies (Click to expand)</strong></summary>
 
 | Dependency | Version | What it Does | Restaurant Analogy |
 |------------|---------|--------------|-------------------|
@@ -103,213 +131,300 @@ authentication/
 | **axios** | ^1.6.2 | HTTP client for API calls | Waiter carrying orders to/from kitchen 👨‍🍳 |
 | **vite** | ^7.0.4 | Fast build tool & dev server | Lightning-fast kitchen equipment ⚡ |
 
-## 🚀 Getting Started
+</details>
 
-### Prerequisites
-- **Node.js** (v18 or higher)
-- **MongoDB** (local or cloud)
-- **Git** for version control
+## 🚀 Quick Start
 
-### 1. Clone the Repository
+<table>
+<tr>
+<td width="50%">
+
+### 📋 **Prerequisites**
+- **Node.js** v18+
+- **MongoDB** (local/cloud)
+- **Git**
+
+### 📥 **Installation**
 ```bash
+# 1. Clone repository
 git clone <your-repo-url>
 cd authentication
-```
 
-### 2. Backend Setup
-```bash
+# 2. Backend setup
 cd Backend
 npm install
-
-# Create .env file
 cp .env.example .env
-# Edit .env with your configurations
-```
+# Edit .env with your values
 
-**Environment Variables (.env):**
-```env
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/auth_db
-JWT_SECRET=your-super-secret-jwt-key-make-it-long-and-random
-JWT_REFRESH_SECRET=your-refresh-token-secret-here
-JWT_EXPIRE=15m
-JWT_REFRESH_EXPIRE=7d
-```
-
-### 3. Frontend Setup
-```bash
+# 3. Frontend setup
 cd ../Frontend
 npm install
 ```
 
-### 4. Run the Application
+</td>
+<td width="50%">
 
-**Terminal 1 - Backend:**
-```bash
-cd Backend
-npm run dev    # Development with auto-reload
-# or
-npm start      # Production mode
+### ⚙️ **Environment Setup**
+Create `Backend/.env`:
+```env
+PORT=5000
+MONGO_URI=mongodb://localhost:27017/auth_db
+JWT_SECRET=your-super-secret-key
+JWT_REFRESH_SECRET=your-refresh-secret
+JWT_EXPIRE=15m
+JWT_REFRESH_EXPIRE=7d
 ```
 
-**Terminal 2 - Frontend:**
+### 🏃‍♂️ **Run Application**
 ```bash
-cd Frontend
-npm run dev    # Development server
+# Terminal 1 - Backend
+cd Backend && npm run dev
+
+# Terminal 2 - Frontend  
+cd Frontend && npm run dev
 ```
 
-## 🔌 API Endpoints
+</td>
+</tr>
+</table>
 
-### Public Routes
+## 🔌 API Documentation
+
+<details>
+<summary><strong>📡 API Endpoints (Click to expand)</strong></summary>
+
+### **Public Routes** 🌐
 ```http
 POST /api/auth/register     # User registration
-POST /api/auth/login        # User login
+POST /api/auth/login        # User login  
 POST /api/auth/refresh-token # Refresh access token
 ```
 
-### Protected Routes (Require JWT)
+### **Protected Routes** 🔒 *(Require JWT)*
 ```http
 POST /api/auth/logout       # User logout
 GET  /api/auth/profile      # Get user profile
 PUT  /api/auth/profile      # Update user profile
 ```
 
-### Utility Routes
+### **Utility Routes** ⚙️
 ```http
 GET  /api/health           # Health check
 ```
 
-## 🧪 Testing the Application
-
-### Registration Flow
-1. Navigate to `http://localhost:5173/register`
-2. Fill in: Name, Email, Password
-3. Submit → Auto-redirect to Dashboard
-
-### Login Flow
-1. Navigate to `http://localhost:5173/login`
-2. Enter: Email, Password
-3. Submit → Redirect to Dashboard
-
-### Dashboard Features
-1. View profile information
-2. Edit profile (name)
-3. Logout functionality
-4. Token auto-refresh (behind the scenes)
-
-## 🔒 Security Features Implemented
-
-### 🛡️ **Authentication & Authorization**
-- JWT tokens with short expiry (15 minutes)
-- Refresh tokens for seamless experience (7 days)
-- Automatic token refresh on API calls
-- Secure logout with token blacklisting
-
-### 🔐 **Password Security**
-- bcryptjs with 12-round salt hashing
-- Password strength requirements:
-  - Minimum 6 characters
-  - At least 1 uppercase letter
-  - At least 1 lowercase letter
-  - At least 1 number
-
-### 🚦 **Rate Limiting**
-- Authentication endpoints: 5 attempts per 15 minutes
-- General API: 100 requests per 15 minutes
-- Prevents brute force attacks
-
-### ✅ **Input Validation**
-- Server-side validation with express-validator
-- Email format validation
-- Name length constraints (2-50 characters)
-- Sanitization of user inputs
-
-### 🌐 **CORS Protection**
-- Configured for specific frontend origin
-- Credentials support for cookies/tokens
-- Prevents unauthorized cross-origin requests
-
-## 🎯 Interview Demo Points
-
-This project demonstrates:
-
-### **Backend Skills**
-- RESTful API design
-- JWT authentication implementation
-- Database modeling with Mongoose
-- Middleware creation and usage
-- Error handling and validation
-- Security best practices
-
-### **Frontend Skills**
-- Modern React with hooks
-- State management without external libraries
-- Form handling and validation
-- API integration with axios
-- Routing with React Router
-- Responsive CSS design
-
-### **Full-Stack Integration**
-- Frontend-backend communication
-- Token-based authentication flow
-- Error handling across the stack
-- User experience considerations
-
-## 🐛 Common Issues & Solutions
-
-### Backend Won't Start
-```bash
-# Check if MongoDB is running
-# Verify .env file exists and has correct values
-# Check if ports 5000 is available
-```
-
-### CORS Errors
-```bash
-# Ensure backend CORS is configured for frontend URL
-# Check if both servers are running on correct ports
-```
-
-### Database Connection Issues
-```bash
-# Verify MongoDB is running
-# Check MONGO_URI in .env file
-# Ensure database permissions are correct
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
-
-## 🙏 Acknowledgments
-
-- **Express.js** for the robust web framework
-- **React** for the powerful UI library
-- **MongoDB** for the flexible database
-- **JWT.io** for token standards
-- **bcrypt** for secure password hashing
+</details>
 
 ---
 
+## 🧪 Testing Guide
+
+<table>
+<tr>
+<td width="33%">
+
+### 📝 **Registration**
+1. Go to `/register`
+2. Fill: Name, Email, Password
+3. Submit → Dashboard
+
+</td>
+<td width="33%">
+
+### 🔑 **Login** 
+1. Go to `/login`
+2. Enter credentials
+3. Submit → Dashboard
+
+</td>
+<td width="33%">
+
+### 📊 **Dashboard**
+1. View profile
+2. Edit profile
+3. Logout
+
+</td>
+</tr>
+</table>
+
+## 🔒 Security Implementation
+
+<details>
+<summary><strong>🛡️ Security Features (Click to expand)</strong></summary>
+
+<table>
+<tr>
+<td width="50%">
+
+### **🔐 Authentication & Authorization**
+- ✅ JWT tokens (15 min expiry)
+- ✅ Refresh tokens (7 days)
+- ✅ Automatic token refresh
+- ✅ Secure logout with blacklisting
+
+### **🔒 Password Security**
+- ✅ bcryptjs with 12-round salt
+- ✅ Password requirements:
+  - Min 6 characters
+  - 1 uppercase letter
+  - 1 lowercase letter  
+  - 1 number
+
+</td>
+<td width="50%">
+
+### **🚦 Protection Mechanisms**
+- ✅ Rate limiting (5 auth attempts/15min)
+- ✅ Input validation & sanitization
+- ✅ CORS protection
+- ✅ Environment variable security
+
+### **✅ Data Validation**
+- ✅ Email format validation
+- ✅ Name length constraints (2-50 chars)
+- ✅ Server-side validation
+- ✅ Client-side form validation
+
+</td>
+</tr>
+</table>
+
+</details>
+
+## 🎯 Interview Showcase
+
+<table>
+<tr>
+<td width="33%">
+
+### **💻 Backend Skills**
+- ✅ RESTful API design
+- ✅ JWT authentication
+- ✅ Database modeling
+- ✅ Middleware creation
+- ✅ Error handling
+- ✅ Security practices
+
+</td>
+<td width="33%">
+
+### **⚛️ Frontend Skills**
+- ✅ Modern React hooks
+- ✅ State management
+- ✅ Form validation
+- ✅ API integration
+- ✅ React Router
+- ✅ Responsive design
+
+</td>
+<td width="33%">
+
+### **🔗 Full-Stack**
+- ✅ Frontend-backend communication
+- ✅ Token-based auth flow
+- ✅ Error handling
+- ✅ User experience
+- ✅ Security awareness
+- ✅ Project structure
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🐛 Troubleshooting
+
+<details>
+<summary><strong>❗ Common Issues & Solutions</strong></summary>
+
+### **Backend Won't Start**
+```bash
+# Check MongoDB connection
+# Verify .env file exists
+# Ensure port 5000 is available
+# Check Node.js version (v18+)
+```
+
+### **CORS Errors**
+```bash  
+# Verify backend CORS config
+# Check frontend URL in backend
+# Ensure both servers running
+```
+
+### **Database Issues**
+```bash
+# Start MongoDB service
+# Check MONGO_URI format
+# Verify database permissions
+```
+
+</details>
+
+## 🤝 Contributing
+
+<div align="center">
+
+### 🚀 **How to Contribute**
+
+</div>
+
+1. **🍴 Fork** the repository
+2. **🌿 Create** a feature branch (`git checkout -b feature/amazing-feature`)
+3. **💾 Commit** your changes (`git commit -m 'Add amazing feature'`)
+4. **📤 Push** to the branch (`git push origin feature/amazing-feature`)
+5. **🔄 Open** a Pull Request
+
+---
+
+## 👨‍💻 Author
+
+<div align="center">
+
+**Mohit Kumar**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Mohit--kumar123-black?style=for-the-badge&logo=github)](https://github.com/Mohit-kumar123)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:your.email@example.com)
+
+</div>
+
+---
+
+## 🙏 Acknowledgments
+
+<div align="center">
+
+**Built with ❤️ using amazing technologies**
+
+| Technology | Purpose |
+|------------|---------|
+| **Express.js** | Robust web framework |
+| **React** | Powerful UI library |
+| **MongoDB** | Flexible database |
+| **JWT.io** | Token standards |
+| **bcrypt** | Secure password hashing |
+
+</div>
+
+---
+
+<div align="center">
+
+### 🌟 **Show Your Support**
+
 ⭐ **Star this repository if it helped you learn full-stack authentication!**
 
-📫 **Questions?** Open an issue or reach out on LinkedIn!
+📫 **Questions?** Open an issue or reach out!
 
 🔥 **Perfect for showcasing in interviews and portfolios!**
-#   A u t h e n t i c a t i o n - F o r m  
+
+---
+
+**Made with 💻 by developers, for developers**
+
+</div>
+#   A u t h e n t i c a t i o n - F o r m 
+ 
  
